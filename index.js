@@ -5,8 +5,6 @@ const result = document.getElementById("result");
 let temp;
 
 function convert() {
-
-
     if(toFahrenheit.checked){
  temp = Number(textBox.value) ;
   temp = temp * 9/5 + 32;
